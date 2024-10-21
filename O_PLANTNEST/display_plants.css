@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+:root {
+    --themeRed: #e43a47;
+    --gray: #efefef;
+}
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: linear-gradient(rgba(47, 2, 2, 0.682),
+            rgba(2, 31, 8, 0.916)), url(Design/background3.jpg);
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+
+}
+html{
+    font-size: 100%;
+}
+
+.fullcontainer {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+section {
+    padding: 100px 0;
+    position: relative;
+}
+
+/*common style end here */
+/*home style start*/
+
+header {
+    width: 100%;
+    background-color: rgb(2, 24, 5);
+    position:fixed;
+    z-index: 2;
+}
+
+header .container {
+    display:flow-root;
+    justify-content: space-between;
+}
+
+header nav a img{
+    float: inline-start;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
+    height: 65px;
+    width: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+header nav a img:hover{
+    margin-left: 30px;
+    width: 75px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(62, 107, 59, 0.786)
+}
+header nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+}
+
+header nav ul li a{
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover{
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgba(62, 107, 59, 0.786)
+}
+
+main{
+    min-width: 300px;
+    width:100%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    padding:100px 50px;
+ 
+}
+
+main{
+   
+    min-width: 320px;
+    width:100%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin:auto;
+    padding:100px 50px;
+    background-image: linear-gradient(rgba(18, 2, 61, 0.766), rgba(60, 50, 90, 0.766), rgba(59, 100, 68, 0.766),
+            rgba(0, 23, 5, 0.766)), url(Design/background3.jpg);
+    background-repeat: repeat;
+    
+}
+
+main .card{
+    /* box-shadow: 7px 12px  rgba(34, 148, 51, 0.745);    */
+    flex: 1 1 210px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    height:fit-content;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 20px;
+    overflow:auto;
+    background-color: rgba(0, 0, 0, 0.5)
+    
+}
+
+/* main .card .image{
+    height: 45%;
+} */
+
+main .card .image img{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid rgb(145, 87, 24); */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main .card .caption{
+    padding-top: 10px;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    text-align: left;
+    height: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.863);
+    
+}

@@ -1,0 +1,203 @@
+/*common style start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+:root {
+    --themeRed: #e43a47;
+    --gray: #efefef;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(rgba(82, 13, 13, 0.568),
+    rgba(82, 13, 13, 0.568)), url(Design/background3.jpg);
+    background-repeat: repeat;
+}
+
+p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.fullcontainer {
+    width: 100%;
+    
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+
+
+/*common style end here */
+/*home style start*/
+
+header {
+    width: 100%;
+    background-color: rgb(2, 24, 5);
+    position: relative;
+    z-index: 2;
+}
+
+header .container {
+    display:flow-root;
+    justify-content: space-between;
+}
+
+header nav a img{
+    float: inline-start;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
+    height: 65px;
+    width: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+header nav a img:hover{
+    margin-left: 30px;
+    width: 75px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(62, 107, 59, 0.786)
+}
+header nav ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    /* width: 150px; */
+    height: 80px;
+}
+
+header nav ul li a{
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover{
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgba(41, 87, 38, 0.786)
+}
+
+
+/*home style end here*/
+
+/*donors information starts here */
+
+.content-table
+{
+    position: inherit;
+    border-collapse: collapse;
+    font-size: .25cm;
+    margin-top: 50px;
+    margin-left: 50px;
+    width:90%;
+    border-radius: 7.5px;
+    overflow: scroll;
+    box-shadow:0 0 20px rgba(0,0,0,.15);
+    table-layout:fixed;
+    margin-bottom: 80px;
+    
+    
+}
+
+.content-table caption
+{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgba(2, 32, 13, 0.829);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding :15px 20px ;
+}
+
+
+.content-table thead tr 
+{
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.content-table th,
+.content-table td 
+{
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+    padding: 12px 15px;
+
+}
+.content-table th
+{
+    font-size: 15px;
+    background-color: rgba(112, 167, 124, 0.653);
+}
+.content-table td
+{
+    font-size: 12px;
+    
+}
+
+.content-table th button,
+.content-table td button
+{
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.content-table th button:hover,
+.content-table td button:hover
+{
+    background-color: rgba(112, 167, 124, 0.653);
+    color: #ffffff;
+    font-size: bold;
+    width: 60px;
+}
+
+
+.content-table tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even)
+{
+    background-color: #f3f3f3b7;
+}
+.content-table tbody tr:nth-of-type(odd)
+{
+    background-color: #b8b7b7b0;
+}
+.content-table tbody tr:last-of-type
+{
+    border-bottom: 2px solid rgb(99, 49, 16);
+}
+
+/*donors information end here */
+
+/*donors information starts here */

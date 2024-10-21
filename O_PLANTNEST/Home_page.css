@@ -1,0 +1,237 @@
+/*common style start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+:root {
+    --themeRed: #e43a47;
+    --gray: #efefef;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
+body{
+    
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fullcontainer {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 2, 9, 0.397),
+            rgba(10, 2, 26, 0.845)), url(Design/background1.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+/*common style end here */
+/*home style start*/
+
+header {
+    width: 100%;
+    background-color: rgb(2, 24, 5);
+    position:fixed;
+    z-index: 2;
+}
+
+header .container {
+    display:flow-root;
+    justify-content: space-between;
+}
+
+header nav a img{
+    float: inline-start;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
+    height: 65px;
+    width: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+header nav a img:hover{
+    margin-left: 30px;
+    width: 75px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(62, 107, 59, 0.786)
+}
+header nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+}
+
+header nav ul li a{
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover{
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgba(62, 107, 59, 0.786)
+}
+#intro{
+    padding-top: 200px;
+}
+
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.banner h1 {
+    margin-top: 200px;
+    display: inline-block;
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    width: 80%;
+    line-height: 5rem;
+    font-weight: bold;
+
+}
+
+.banner p {
+    color: rgb(255, 255, 255);
+    width: 95%;
+    text-shadow: 5px #000;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/*home style end here*/
+
+main{
+   
+    min-width: 320px;
+    width:100%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin:auto;
+    padding:100px 50px;
+    background-image: linear-gradient(rgba(18, 2, 61, 0.766), rgba(60, 50, 90, 0.766), rgba(59, 100, 68, 0.766),
+            rgba(0, 23, 5, 0.766)), url(Design/background3.jpg);
+    background-repeat: repeat;
+    
+}
+
+main .card{
+    /* box-shadow: 7px 12px  rgba(34, 148, 51, 0.745);    */
+    flex: 1 1 210px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    height:fit-content;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 20px;
+    overflow:auto;
+    background-color: rgba(0, 0, 0, 0.5)
+    
+}
+
+/* main .card .image{
+    height: 45%;
+} */
+
+main .card .image img{
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid rgb(145, 87, 24); */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main .card .caption{
+    padding-top: 10px;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    text-align: left;
+    height: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.863);
+    
+}
+
+main .seemore
+{
+    width: 100%;
+    text-align: center;
+}
+main a button
+{
+    margin: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+
+/*footer section start here*/
+
+footer{
+    background-image: linear-gradient(rgba(47, 2, 2, 0.682),
+            rgba(2, 31, 8, 0.916)), url(Design/background2.jpg);
+    background-repeat: repeat;
+    padding: 50px 0;
+    height: 400px;
+    
+}
+footer .container{
+    
+    width: fit-content;
+    text-align: center;
+    
+}
+
+footer .title{
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    padding: 0 0 5px 0;
+    color: #fff;
+}
+footer p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*footer section start here*/

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image:linear-gradient(rgba(0, 2, 9, 0.397),
+    rgba(10, 2, 26, 0.845)), url(Design/background_form.jpg);
+    background-size: cover;
+    margin: 20px;
+    padding: 0;
+    font-family: montserrat;
+    overflow: auto;
+}
+
+.center
+{
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgba(14, 66, 34, 0.74);
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, -00%);
+    padding: 10px;
+    width: 500px;
+    
+}
+
+form
+{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.center h1
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0 0 20 px 20px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+     
+}
+
+.center label
+{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+form input::placeholder
+{
+    color: rgb(199, 199, 199);
+
+}
+.center .notmember_text
+{
+    font-size: 20px ;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.center .notmember_text button
+{
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(112, 167, 124, 0.653);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px 5px;
+
+}
+
+.center .already_member_text
+{
+    font-size: 20px ;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.center .already_member_text button
+{
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(112, 167, 124, 0.653);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px 5px;
+}
+
+.name_text input , .password_text input, .user_mail input
+{
+    width : 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(112, 167, 124, 0.653);
+}
+
+
+.center .user_specification select
+{
+    width: 200px;
+    height: 30px;
+    float: right;
+    border-radius: 5px;
+    background-color: rgba(112, 167, 124, 0.653);
+    
+}
+
+.submit_text
+{
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+.submit_text input
+{
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(112, 167, 124, 0.653);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px 5px;
+}
+
